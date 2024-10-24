@@ -29,4 +29,18 @@ It involves the following steps:
     using matplotlib and folium map.
   * Recommendations have been given according to the insights observed.
 
+**Feature Engineering:**
+
+  * Engineer new features if applicable, such as aggregating or transforming existing features to create more informative representations of the data.
+
+**Model Building and Evaluation:**
+
+* Split the dataset into training and testing/validation sets.
+* Train the different regression models and evaluate the result with suitable metrics such as MAE - Mean Absolute Error, MSE - Mean Squared Error and
+  RMSE - Root Mean Squared Error.
+
+**Model Deployment using Streamlit:**
+* Develop interactive GUI using streamlit.
+* create an input field where the user can enter each column value except target variable.
+
     
