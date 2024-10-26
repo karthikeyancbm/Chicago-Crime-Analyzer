@@ -266,7 +266,7 @@ def crime_location_2():
             fill=True,
             fill_color='blue',  
             fill_opacity=0.6,  
-            popup=(f'crime_type:{row['Primary Type']} location :{row['Location Description']}')  
+            popup=(f"crime_type:{row['Primary Type']} location :{row['Location Description']}")  
         ).add_to(crime_map_1)    
 
     return crime_map_1
