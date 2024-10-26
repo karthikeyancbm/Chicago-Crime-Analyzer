@@ -7,3 +7,4 @@ Seaborn==0.13.2
 imbalanced-learn
 streamlit-option-menu
 folium
+lazypredict
