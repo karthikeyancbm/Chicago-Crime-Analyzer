@@ -2,7 +2,7 @@ Streamlit==1.31.0
 Matplotlib==3.8.3
 NumPy==1.26.3
 Pandas==2.2.0
-Scikit-learn==1.2.2
+scikit-learn==1.4.1.post1
 Seaborn==0.13.2 
 imbalanced-learn
 streamlit-option-menu
