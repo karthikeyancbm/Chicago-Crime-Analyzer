@@ -241,7 +241,7 @@ def crime_density():
     for index, row in df.iterrows():
         folium.Marker(
             location=[row['Latitude'], row['Longitude']],
-            popup=(f'crime_type:{row['Primary Type']} location :{row['Location Description']}')
+            popup=(f"crime_type:{row['Primary Type']} location :{row['Location Description']}")
         ).add_to(crime_map)
 
     return crime_map
